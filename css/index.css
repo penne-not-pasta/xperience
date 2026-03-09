@@ -1,0 +1,12 @@
+#loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: max-content;
+    height: max-content;
+    z-index: 9999;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: opacity 1500ms ease;
+}
