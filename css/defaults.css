@@ -1,0 +1,26 @@
+/* 1. The Default Arrow */
+html, body {
+  /* Replace the URL with your local path or a hosted image */
+  cursor: url('https://winxp.vercel.app/cursors/arrow.cur'), auto;
+  height: 100%;
+  margin: 0;
+}
+
+/* 2. The Pointer (Hand) for buttons and icons */
+button, 
+a, 
+.desktop-icon, 
+.start-button,
+.taskbar-item {
+  cursor: url('https://winxp.vercel.app/cursors/hand.cur'), pointer !important;
+}
+
+/* 3. The "Wait" (Hourglass) - apply this class via JS when loading */
+.loading {
+  cursor: url('https://winxp.vercel.app/cursors/wait.cur'), wait !important;
+}
+
+/* 4. Text Input (The I-Beam) */
+input[type="text"], textarea {
+  cursor: url('https://winxp.vercel.app/cursors/ibeam.cur'), text;
+}
